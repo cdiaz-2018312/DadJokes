@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(157, 192, 226);
+}
+
+.joke {
+    font-size: 15px;
+    margin: 10px;
+}
+h2 {
+    border-bottom: 1px solid #000; /* Puedes ajustar el ancho y el color según tus preferencias */
+    display: inline-block;
+}
+
+.container {
+    background-color: rgba(247, 223, 223, 0.5);
+    height: 190px;
+    width: 500px;
+    border-style: inset;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0, 0.9) 5px 5px 15px;
+}
+.container .btn {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgba(0,0,0, 0.9);
+    box-shadow: rgba(0,0,0, 0.9) 5px 5px 15px;
+    overflow: hidden;
+    position: static;
+}
